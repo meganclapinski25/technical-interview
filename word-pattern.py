@@ -23,52 +23,53 @@
 def wordPattern(self, pattern: str, s: str) -> bool:
 
         #spilts the s string into individual words
-        s = s.split()
+        s = s.split() # O(n)
         #len finds the number of unique characterrs in the pattern and s string
         #zip_longest (itertools) will take the pattern ('ced') for example and group together the words that contain that in s
-        return (len(set(pattern)) ==
-                len(set(s)) ==
-                len(set(zip_longest(pattern,s))))
+        return (len(set(pattern)) ==  # O(j)
+                len(set(s)) == # O(n)
+                len(set(zip_longest(pattern,s)))) #longest == max?? 
+                #O(max(j,n))
 #Ran in leetcode and works - couldn't figure out how to run test cases in vscode with this 
 
-    
+    #O(max(j,n))
 
 #CHATGBT
 def wordPattern(pattern, s):
     # Split the input string s into individual words
-    words = s.split()
+    words = s.split() # O(n)
     
     # Check if the length of the pattern and the number of words in s are the same
-    if len(pattern) != len(words):
-        return False
+    if len(pattern) != len(words): # O(1)
+        return False # O(1)
     
     # Create two dictionaries to map characters in the pattern to words in s and vice versa
-    char_to_word = {}
-    word_to_char = {}
+    char_to_word = {} # O(1)
+    word_to_char = {} # O(1)
     
     # Iterate through each character in the pattern and its corresponding word in s
     for char, word in zip(pattern, words):
         # Check if the current character has been mapped before
-        if char in char_to_word:
+        if char in char_to_word: # O(1)
             # Check if the current word matches the previously mapped word for the character
-            if char_to_word[char] != word:
-                return False
+            if char_to_word[char] != word: # O(1)
+                return False # O(1)
         else:
             # Map the current character to the current word
-            char_to_word[char] = word
+            char_to_word[char] = word # O(1)
             
         # Check if the current word has been mapped before
-        if word in word_to_char:
+        if word in word_to_char: # O(1)
             # Check if the current character matches the previously mapped character for the word
-            if word_to_char[word] != char:
-                return False
-        else:
+            if word_to_char[word] != char: # O(1)
+                return False # O(1)
+        else: 
             # Map the current word to the current character
-            word_to_char[word] = char
+            word_to_char[word] = char # O(1)
             
     # If all characters in the pattern have been mapped consistently to words in s, return True
-    return True
-
+    return True # O(1)
+# O(n)
 # test
 pattern = "dddd"
 s = "dog dog dog dog"
