@@ -26,18 +26,18 @@
 #CHATGBT
 def find_common_elements(nums1, nums2, nums3):
     # Convert arrays to sets to eliminate duplicates
-    set1 = set(nums1)
-    set2 = set(nums2)
-    set3 = set(nums3)
+    set1 = set(nums1)  # O(n1)
+    set2 = set(nums2)  # O(n2)
+    set3 = set(nums3)  # O(n3 )
     
     # Find the common elements using set intersection
-    common_elements = (set1 & set2) | (set2 & set3) | (set1 & set3)
+    common_elements = (set1 & set2) | (set2 & set3) | (set1 & set3) # O(n1, n2, n3)
     
     # Convert the result back to a list
-    result = list(common_elements)
+    result = list(common_elements) # O(n1, n2, n3)
     
     return result
-
+# O(n1, n2, n3)
 # Example usage:
 nums1 = [1, 2, 2, 3]
 nums2 = [2, 3, 4]
@@ -50,15 +50,16 @@ print(find_common_elements(nums1, nums2, nums3))  # Output: [2, 3, 4]
 #LeetCode
 def solution(nums1, nums2, nums3):
     #empty list
-    ret = []
+    ret = [] # O(1)
+
 
     #adds the common int with intersection from each list to the empty ret list
-    ret += set(nums1).intersection(set(nums2))
-    ret += set(nums1).intersection(set(nums3))
-    ret += set(nums2).intersection(set(nums3))
+    ret += set(nums1).intersection(set(nums2)) # O(n1 + n2)
+    ret += set(nums1).intersection(set(nums3)) # O(n1 + n3)
+    ret += set(nums2).intersection(set(nums3)) # O(n2 + n3)
 
-    return list(set(ret))
-
+    return list(set(ret)) #O(n)
+# O(n)
 # Example usage:
 nums1 = [5, 4, 7, 2]
 nums2 = [2, 9, 3]
