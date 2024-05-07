@@ -6,12 +6,13 @@ from typing import List
 
 
 def singleNumber(nums: List[int]) -> int:
-    ans = 0
-    for i in nums:
-        #XOR ans = ans ^ i
-        ans ^= i
-    return ans
+    ans = 0 # O(1)
+    for i in nums: # O(n)
+        #XOR ans = ans ^ I
+        ans ^= i  # O(1)
+    return ans # O(1)
 
+# O(n) 
 # Example usage:
 nums = [2, 2, 1,1,4,4,3,2,1,3,6,1]
 print(singleNumber(nums))  
