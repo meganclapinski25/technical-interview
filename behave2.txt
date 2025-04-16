@@ -1,0 +1,22 @@
+Question 2:  Describe a time when you had to learn a new tool or technology
+ quickly to complete a project. How did you go about it, and what was the result?
+
+
+
+ Answer (No AI): 
+
+
+ For my first data Analyics class I was met with the challenge to learn pandas. The deadline for our final project was coming up
+ and I wasn't really understanding the syntax of the language. During this time I was juggling both soccer, work, and other classes. 
+ In order to succedd with this project, I had to learn pandas through various resources, Youtube, Code Academy, and the use of AI. 
+I frist started with Code Academy and taking their Pandas course with data analyics. From there and the examples I got, I would watch youtube videos and apply what I had learned into some 
+practice examples. Once I got the syntax down and the basics, I used AI in order to test myself, my prompting it to ask me questions. 
+From this practice, I was able to clean and transform the data to further understand it and make the visualization part of the project
+clean and easily readable. Earning me an A on my final project 
+
+Grade (AI):  A- 
+
+Improvement : 
+    - Polish the flow 
+    - Quantify or highlight the impact a bit more
+        - what kind of data was I working with, and what visualzaitions did I end up making 
