@@ -1,0 +1,23 @@
+Question 1 : 
+Tell me about a time when you had to work with a team on a project with a tight 
+deadline. What was your role, and how did you handle it? 
+
+Answer 1 (no AI): 
+
+So for one of my classes the team and I had to work with a company to create a new Front-End
+page that was user friendly and captivating for new users. I was assigned to delegate the roles and consult the client
+on their expectations and how we could meet them. What I did to ensure our team met the deadline
+was to meet twice a week to deliever stand-ups for each team member. That way the whole team knew everyones next steps, what they worked on
+and if they occured any blockers. From doing that and opening up the meeting to discussions afterward. We were able to meet the deadline with time to spare
+in case anything had to be changed or fixed. 
+
+AI Grade : B+ 
+
+Improvement: 
+    - More structure (Star Method)
+        - Situation: What was the project and the stakes?
+        - Task: What was your responsibility?
+        - Action: What specific steps did you take?
+        - Result: What was the outcome, and did it impact the client/team?
+    - Clairfy leadership impact
+    - Grammer and flow (*)
