@@ -1,0 +1,23 @@
+Technical Discussion Question : 
+"Imagine you're given a messy dataset with missing values, 
+inconsistent formatting, and duplicate entries. 
+Walk me through how you would approach cleaning and 
+preparing this data for analysis."
+
+
+Answer (No AI): 
+
+If I'm given a messy dataset the first thing I would do is check for null values using pandas,
+After doing that I would proint out the dataset and see where the formatting errors or duplication takes place. 
+If it takes place in one column, for example if the Name column has inconsistenties with capitalization I would use str() functions to make it look cleaner and easier to read
+With duplication, I would utilize df.duplicated to first check if a row indicates True showing duplicates or False with no duplicates. 
+Getting those rows with duplication, I would use drop_duplicates() method to remove the duplicate rows from the dataframe. 
+
+
+Grade = B 
+
+Improvments : 
+    - Add stucture, step 1, step 2, step 3, 
+    - Start with undersatnding the data, using .info(), .describe()
+    - explain why using some methods 
+    
