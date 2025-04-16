@@ -1,0 +1,48 @@
+Question : You’ve been asked to evaluate the effectiveness of a new marketing campaign that was launched last month.
+ How would you approach this analysis as a data analyst?
+
+
+Clairfying Questions : 
+        - What data do I have access too? 
+        - 
+Data : 
+Sales Data:
+Date (transaction date)
+Total_Sale (value of each sale)
+Customer_Segment (new, returning, VIP)
+Sales_Channel (online, in-store)
+Product_ID, Product_Category
+
+Marketing Campaign Data:
+Campaign_ID
+Start_Date and End_Date
+Marketing_Channel (social media, email, TV, etc.)
+Total_Spend (how much was spent on the campaign)
+Impressions (number of people who saw the campaign)
+Clicks (number of people who interacted with the campaign)
+Conversion_Rate (percentage of clicks that resulted in a sale)
+
+Customer Data:
+Customer_ID
+Customer_Segment (new, returning)
+Region
+
+Answer : 
+    The first thing that I would do is seperate the marketing campaign data into visualizations using the start_date and the end_date.
+    From this I would be able to see increases or dips with different campaigns along with the date that it happened. 
+    I would segment the new marketing campaign with Conversion_Rate, Total_Sale, and Customer_Segment. This would show 
+    the number of clicks resulting in a sale, the types of customers conversioning, and the total sales from that Conversion_Rate. 
+    If there is a dip or increase in sales, I would look further into the Marketing_Channel and compare that to other marketing campaigns, if that has a lack of information to our problem 
+    I would then look at the rate of impressions and clicks compared to the conversion_rate.
+    If there was a drop, I would hypthesis that maybe the marketing campaign was not on the right Marketing_Channel. 
+    I would then test the new marketing campaign with the older ones, helping the company see the metrics and the right steps to take.  
+
+    
+Grade  = B+ 
+
+Improvments : 
+    - More strucutre and clarity 
+    - How i would measure if things are effictive, 
+    - use better verbage and diction 
+    
+    
