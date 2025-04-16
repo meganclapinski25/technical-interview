@@ -1,0 +1,39 @@
+Question : Suppose a company wants to understand why their monthly sales have dropped. 
+        How would you approach analyzing this problem as a data analyst?
+
+Columns:
+Transaction_ID
+Date
+Customer_ID
+Product_ID
+Product_Category
+Units_Sold
+Unit_Price
+Total_Sale (Units_Sold × Unit_Price)
+Region
+Sales_Channel (Online, In-Store, etc.)
+Discount_Applied (Yes/No)
+Customer_Segment (New, Returning, VIP)
+
+
+Answer: 
+    First I would ask a clairfying question, what are the columns / rows I am dealing with? ^
+    If the monthly sales were to drop, I would first create a visualization showing the dip using the date columns and the total sales column to understand trends by time.
+    If time doesn't tell us anything, I would get the distrubtion of total_sales and the sale_distrubtion, to find if online sales are dropping or in-store sales were dropping
+    I would then take a look at the distrubtion of the types of customers. And finally the distrubtion of the product category. 
+    Maybe the company has dropped in new customers, we can use marketing or discounts to gain those new customers back. 
+    
+
+Grade (AI) = B
+
+    Improvments : 
+        - Organize thought process 
+            - understand the trends 
+            - segment the dip
+            -investigate the root cause
+            - recommended actions
+        - use clearer terminology
+        - dig depper into the 'why' 
+
+
+
