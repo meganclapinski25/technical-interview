@@ -1,0 +1,72 @@
+What is SQL ? 
+
+- SQL is structured query language. and its used for mangaging and manipulating data
+
+What is a primary key? 
+
+- A primary key in SQL is the constraint the unquie identifies each record of the table
+
+Can a Table have more than 1 primary key?
+
+- No, a table can only have 1 primary key.
+
+What is a foreign key, why is it imporant? 
+
+- A foreign key is field in a table that refers to the primary key in another table
+
+What is the difference between DELETE, TRUNCATE, and DROP statements?
+
+- DELETE removes specific rows from a table using a Where clauses
+- Slower ; Keeps table structured 
+
+- Truncate removes all rows from a table but faster than delete 
+- cannot delete specfic rows
+- faster preformance, keeps table structured
+
+- Drop completely deletes the table from the database
+- removes data structure constraints and indexes
+- cannot be rolled back 
+
+
+What are the different types of SQL statements?
+
+- DQL Data Query language
+    - ex SELECT
+-DML Data Manipulation Language
+    -ex INSERT, UPDATE, DELETE
+- DDL Data Definition Language
+    -ex CREATE, ALTER, DROP, TRUNCATE
+- DCL Data Control Language
+    - GRANT, REVOKE
+- TCL Transition Control Language
+    - COMMIT, ROLLBACK, SAVEPOINT
+
+
+What is the difference between WHERE and HAVING clauses?
+
+- WHERE : Filters rows before any grouping or aggregation happens, works with individual records, cant use sum count functions
+
+- HAVING: Filters groups after aggregation, must be used with groupby
+
+What are JOIN operations? Name and briefly explain the types of joins.
+
+Left Join: Gets matching data all from left and matching with right, if no value matching right will go NULL
+
+Inner Join :  Only gets matching data from both tables
+
+Outter Join: data from both tables 
+
+Right Join: Same as Left just opposite: left will have NULL values if no match from right 
+
+What is normalization? Why is it important in database design?
+- normalization is the process of organizing data in a database to reduce redundancy 
+- 
+
+What does the GROUP BY clause do? Give an example of how it's used.
+- Groupby clause is used to group rows that have the same values.
+
+What are aggregate functions in SQL? Name a few common ones.
+
+Aggregate functions are used to preform calculations on a group of rows 
+    - SUM , AVG, COUNT, MAX, MIN
+
