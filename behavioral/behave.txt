@@ -1,0 +1,19 @@
+"Tell me about a time when you had to stay motivated during a long or repetitive task."
+
+
+S 
+T 
+A 
+R 
+
+When making one of my portfolio projects for data analyics, I decided to take the leap to Excel and make a manufacturing dashboard from a Kaggle dataset. 
+The dataset included downtimes, emplooyee efficiencies and daily performance metrics
+
+My goal was to clean the data, process it, and answer questions that came with the dataset. However learning to navigate Excel and visualize the data was the most troubling. 
+I had to make sure everythiong was clean, correct, and made an impact so an employer could see my potential and work ethic with something new.
+
+To stay motivated and on top of it, I broke the project up into topics. If I was specifcally answering a question that had something to do with the downtime, I would break the question into parts. 
+Getting all the employees and their downtime, breaking that up into if the downtime was due to the employees or machine failure. And then also asking if the product took more time than other products with the serial code and estamiated time given 
+Listening to msuic and taking short breaks helped me stay on top of the work and made me use my time wisley. 
+
+In the end, I was able to create to dashboard and the visualizations efficienctly, I learned how to stay focus and keep myself motivated throughout the process even if I ran into blockers. 
