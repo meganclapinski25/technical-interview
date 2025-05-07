@@ -1,0 +1,19 @@
+Why do you want to work for X company? 
+
+1. Show you know them
+    - mention something specfic about the company, mission,culture, projects, 
+
+2. Make it Personal 
+    - Connect that to your own interests 
+
+3. Show how you will contribute
+    - end by explaiing how you'd use your skills to help the company succeed
+
+
+Example Google: 
+
+ I want to work for Google because I admire the innovation and impact your projects have brought to the public. 
+ I admire how Google builds products that not only lead the tech industry but make everyday life easier for millions of people
+ As someone with a background in applied computer science and a strong interest in data analyics, I'm drawn to Google's commitment of solving real-world
+ problems at scale. I'm also excited about the culture of continuing learning and collaboarition at the workplace. I'd love
+ to contribute my skills to a team that values, curiosity, creativity, and ambition. 
