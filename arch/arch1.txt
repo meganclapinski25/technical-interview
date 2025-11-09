@@ -1,0 +1,9 @@
+Question :  What’s the difference between monolithic and microservices architecture?
+
+Notes: 
+- monolithic
+- microservices 
+
+Answer from curotec: 
+
+Answer : 

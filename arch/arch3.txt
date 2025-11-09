@@ -1,0 +1,2 @@
+How do frontend frameworks (like React or Vue) 
+typically interact with backend servers to display dynamic content?

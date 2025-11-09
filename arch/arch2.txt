@@ -1,0 +1,5 @@
+Question : How does an event-driven architecture differ from a traditional request-response model, 
+and what are its advantages in large-scale systems?
+
+Asnwer from Chat: 
+
